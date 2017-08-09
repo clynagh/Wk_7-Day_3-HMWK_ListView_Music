@@ -24,6 +24,10 @@ public class Album {
     public String getTitle(){
         return title;
     }
+
+    public Integer getYear(){
+        return year;
+    }
 }
 
 

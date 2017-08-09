@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
 
 /**
  * Created by craiglynagh on 09/08/2017.
@@ -26,6 +27,11 @@ public class AlbumTest {
     @Test
     public void getTitleTest(){
         assertEquals("Disintegration", album.getTitle());
+    }
+
+    @Test
+    public void getYearTest(){
+        assertEquals((Integer)1993, album.getYear());
     }
 
 
