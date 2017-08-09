@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 public class CoolAlbumsTest {
 
     @Test
-            public void getListTest() {
+    public void getListTest() {
         CoolAlbums coolAlbums = new CoolAlbums();
         assertEquals(20, coolAlbums.getList().size());
     }
