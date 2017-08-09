@@ -23,6 +23,14 @@ public class AlbumTest {
         assertEquals((Integer)25, album.getRanking());
     }
 
+    @Test
+    public void getTitleTest(){
+        assertEquals("Disintegration", album.getTitle());
+    }
+
 
 }
+
+
+
 

@@ -20,6 +20,10 @@ public class Album {
     public Integer getRanking(){
         return ranking;
     }
+
+    public String getTitle(){
+        return title;
+    }
 }
 
 
